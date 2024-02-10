@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.heading {
+    font-family: DM Sans;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    color: #1E0E62;
+    margin-bottom: 20px;
+}
+
+.wv-100 {
+    width: 100%;
+}
+
+.table-1 tr:nth-child(even) {
+    background: #EBEAED;
+    width: 970px;
+    height: 70px;
+    border-radius: 30px;
+}
+
+.table-1 tr:nth-child(odd) {
+    width: 970px;
+    height: 70px;
+
+}
+
+.table-1 tr th {
+    font-family: DM Sans;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #15143966;
+    padding: 20px;
+}
+
+.table-1 {
+    border-collapse: collapse;
+}
+
+.table-1 tr td {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1E0E62;
+    padding: 20px;
+}
+.border-radius-left{
+    border-radius: 10px 0 0 10px;
+}
+.border-radius-right{
+    border-radius: 0 10px 10px 0;
+}
